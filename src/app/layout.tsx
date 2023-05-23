@@ -17,7 +17,7 @@ export default function RootLayout({
 }) {
 	return (
 		<html lang="en" className={sans.className}>
-			<body className="w-full max-w-screen-xl overflow-auto mx-auto text-black">
+			<body className="w-full max-w-screen-xl overflow-auto mx-auto text-black bg-white">
 				<AuthContext>
 					<header className="sticky top-0 bg-white z-10 border-b">
 						<Navbar/>
