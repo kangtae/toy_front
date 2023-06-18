@@ -1,9 +1,9 @@
-import { createClient } from "@sanity/client";
+import { createClient } from '@sanity/client';
 
 export const client = createClient({
-	projectId: process.env.SANITY_PROJECT_ID,
-	dataset: process.env.SANITY_DATASET,
-	useCdn: false, // set to `false` to bypass the edge cache
-	apiVersion: '2023-05-23', // use current date (YYYY-MM-DD) to target the latest API version
-	token: process.env.SANITY_SECRET_TOKEN
-})
+  projectId: process.env.SANITY_PROJECT_ID,
+  dataset: process.env.SANITY_DATASET,
+  useCdn: false,
+  apiVersion: '2023-03-20',
+  token: process.env.SANITY_SECRET_TOKEN,
+});

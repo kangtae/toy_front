@@ -1,4 +1,5 @@
-import {BsFillPlusSquareFill} from "react-icons/all";
+import { BsPlusSquareFill } from 'react-icons/bs';
+
 export default function NewFillIcon() {
-	return <BsFillPlusSquareFill className="w-6 h-6" />
+  return <BsPlusSquareFill className='w-6 h-6' />;
 }
