@@ -21,3 +21,7 @@ export async function addUser({ id, username, email, name, image }: OAuthUser) {
     bookmarks: [],
   });
 }
+
+export async function getUserByUsername(username: string){
+	return client.fetch();
+}
